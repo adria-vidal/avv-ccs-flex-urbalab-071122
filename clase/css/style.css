@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: aquamarine;
+    height: 10vh;
+}
+
+.main {
+    background-color: blueviolet;
+    height: 50vh;
+    display: flex;
+}
+
+.menu {
+    background-color: aqua;
+    width: 25vw;
+
+}
+
+.info {
+    background-color: darkgoldenrod;
+    width: 75vw;
+}
+
+.element {
+    background-color: brown;
+    width: 20vw;
+    height: 25vh;
+
+}
+
+
+
+.new {
+    height: 25vh;
+    display: flex;
+    gap: 2px;
+
+}
+
+.footer {
+    background-color: coral;
+    height: 15vh;
+}
