@@ -15,6 +15,9 @@ body {
     width: 50vw;
     height: 8vh;
 }
+.info span{
+    margin-left: 1em;
+}
 
 .apps {
     width: 50vw;
@@ -30,6 +33,7 @@ body {
 img {
     margin: 0em 0.5em;
 }
+
 
 .menu-app {
     height: 50%;
@@ -87,7 +91,7 @@ img {
 }
 .lupa img {
     height: 100%;
-    width: 100%;
+    width: 70%;
     
 }
 
@@ -159,18 +163,32 @@ padding-left: 1em;
 
 .footer {
     height: 10vh;
-    background-color: black;
+    
 }
 
 .pais {
     height: 50%;
-    background-color: rgb(244, 136, 248);
-
+    background-color: white;
+    margin-left: 1em;
 }
 
 .legalidad {
     height: 50%;
-    background-color: rgb(247, 28, 255);
     display: flex;
+    justify-content: space-around;
 
+}
+
+.publicidad span{
+    padding-right: 1em;
+}
+.terminos span{
+    padding-right: 1em;
+}
+.neutro {
+    display: flex;
+}
+.neutro img{
+    height: 60%;
+    margin: 0;
 }
