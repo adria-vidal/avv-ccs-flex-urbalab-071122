@@ -3,7 +3,9 @@ body {
 }
 
 
-
+.container{
+    background-image: url(../img/paisaje.jpg);
+}
 
 .menu {
     display: flex;
@@ -57,12 +59,16 @@ img {
     height: 5vh;
     box-shadow: 5px 10px 5px 5px #48529944;
     display: flex;
-    border-radius: 60px;
+    border-radius: 10px;
     vertical-align: center;
+    background-color: white;
+    align-items: center;
+
 }
 .buscador > div{
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .lupa {
@@ -97,7 +103,7 @@ input {
 }
 
 .micro img {
-    height: 100%;
+    height: 80%;
     width: 50%;
     position: absolute;
     top: 10%;
@@ -113,7 +119,7 @@ input {
 }
 
 .camara img {
-    height: 100%;
+    height: 80%;
     width: 70%;
     position: absolute;
     top: 10%;
