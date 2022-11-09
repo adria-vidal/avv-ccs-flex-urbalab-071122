@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+}
+
+
+
+
+.menu {
+    display: flex;
+    height: 10vh;
+}
+img {
+    height: 100%;
+}
+
+.izquierda {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.izquierda span {
+    margin-left: 1em;
+
+}
+
+.derecha {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: end;
+    margin-right: 5em;
+
+
+}
+
+.derecha span {
+    margin-left: 1em;
+
+}
+.derecha img{
+    height: 50%;
+    margin-left: 0.5em;
+}
+.main{
+    height: 60vh;
+}
+.centrar {
+    width: 50vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.buscador {
+    margin-top: 10%;
+    height: 5vh;
+    box-shadow: 5px 10px 5px 5px #48529944;
+    display: flex;
+    border-radius: 60px;
+    vertical-align: center;
+}
+.buscador > div{
+    display: flex;
+    justify-content: center;
+}
+
+.lupa {
+    height: 80%;
+    width: 10%;
+}
+
+.lupa img {
+    height: 100%;
+    width: 70%;
+
+}
+
+.buscador-input {
+    height: 100%;
+    width: 100%;
+    padding-left: 1em;
+
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.micro {
+    height: 80%;
+    width: 10%;
+    position: relative;
+
+}
+
+.micro img {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 10%;
+}
+
+.camara {
+    height: 80%;
+    width: 10%;
+    margin: 0 0.5em;
+    position: relative;
+
+
+}
+
+.camara img {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    top: 10%;
+}
+.teclado {
+    height: 80%;
+    width: 10%;
+    margin: 0 0.5em;
+    position: relative;
+
+}
+.buttons{
+    height: 10vh;
+    width: 100vw;
+    background-color: aqua;
+}
+.footer{
+    height: 10vh;
+    background-color: red;
+}
