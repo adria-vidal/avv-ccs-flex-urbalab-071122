@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.menu {
+    height: 8vh;
+    display: flex;
+}
+
+.info {
+    width: 50vw;
+    height: 8vh;
+}
+.info span{
+    margin-left: 1em;
+}
+
+.apps {
+    width: 50vw;
+    height: 8vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+    padding-right: 1em;
+}
+
+.apps span,
+img {
+    margin: 0em 0.5em;
+}
+
+
+.menu-app {
+    height: 50%;
+    margin: 0 0.5em;
+}
+
+.perfil {
+    width: 20%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 82vh;
+}
+
+.centrar {
+    width: 50vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+.logo {
+    height: 25vh;
+    display: flex;
+    vertical-align: bottom;
+
+
+
+}
+
+.logo img {
+    height: 100%;
+    display: block;
+    margin: auto;
+
+
+}
+
+
+.buscador {
+    margin-top: 10%;
+    height: 5%;
+    box-shadow: 5px 10px 5px 5px #48529944;
+    display: flex;
+    border-radius: 60px;
+    vertical-align: center;
+}
+
+.lupa {
+    height: 80%;
+    width: 10%;
+}
+.lupa img {
+    height: 100%;
+    width: 70%;
+    
+}
+
+.buscador-input {
+    height: 100%;
+    width: 100%;
+    padding-left: 1em;
+
+}
+input{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.micro {
+    height: 80%;
+    width: 10%;
+    position: relative;
+
+}
+.micro img {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 10%;
+}
+
+.camara {
+    height: 80%;
+    width: 10%;
+    margin: 0 0.5em;
+    position: relative;
+
+}
+.camara img {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    top: 10%;
+}
+
+
+.botones {
+    margin-top: 1em;
+    height: 3vh;
+    display: flex;
+}
+.button-buscar{
+    height: 100%;
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    padding-right: 1em;
+
+}
+.button-suerte{
+width: 50%;
+height: 100%;
+padding-left: 1em;
+
+}
+
+.links {
+    height: 45%;
+    text-align: center;
+}
+
+
+.footer {
+    height: 10vh;
+    
+}
+
+.pais {
+    height: 50%;
+    background-color: white;
+    margin-left: 1em;
+}
+
+.legalidad {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.publicidad span{
+    padding-right: 1em;
+}
+.terminos span{
+    padding-right: 1em;
+}
+.neutro {
+    display: flex;
+}
+.neutro img{
+    height: 60%;
+    margin: 0;
+}
