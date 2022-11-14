@@ -1,18 +1,27 @@
 body {
     margin: 0;
-}
-
-
-.container{
+    padding: 0 5em;
+    width: 100%;
+    overflow-x: hidden;
     background-image: url(../img/paisaje.jpg);
+
 }
+
+
+
 
 .menu {
     display: flex;
     height: 10vh;
+    color: white;
+    font-size: larger;
 }
 img {
     height: 100%;
+}
+#puntos{
+    font-size: x-large;
+    
 }
 
 .izquierda {
@@ -22,7 +31,7 @@ img {
 }
 
 .izquierda span {
-    margin-left: 1em;
+    margin-left: 2em;
 
 }
 
@@ -43,6 +52,7 @@ img {
 .derecha img{
     height: 50%;
     margin-left: 0.5em;
+    border-radius: 50%;
 }
 .main{
     height: 60vh;
@@ -132,11 +142,35 @@ input {
 
 }
 .buttons{
-    height: 10vh;
-    width: 100vw;
-    background-color: aqua;
+    
+    height: 50%;
+    display: flex;
+    
+    margin-bottom: 1em;
+}
+.button{
+    width: 50%;
+    
+    background-color: rgba(0, 0, 0, 0.329);
+}
+.info{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+#ubi{
+    height: 30%;
 }
 .footer{
     height: 10vh;
-    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    
+}
+.fotos{
+    width: 100%;
+}
+.fotos img{
+    width: 95%;
 }
